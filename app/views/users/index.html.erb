@@ -1,0 +1,3 @@
+<h1 id="users">USERS</h1>
+<a href="/users/new">Create new user</a>
+<%= User.all.map(&:name).join("   -  ") %>
